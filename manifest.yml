@@ -1,4 +1,5 @@
 ---
 applications:
-- memory: 64M
+- name: chisel-opensource
+  memory: 64M
   buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.1.2
